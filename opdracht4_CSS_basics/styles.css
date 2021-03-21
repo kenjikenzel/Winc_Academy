@@ -1,0 +1,27 @@
+/* index.html styling */
+h1 {
+  color: red;
+}
+body {
+  background-color: lightgrey;
+  color: grey;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: auto;
+}
+.black-border {
+  border: 5px solid black;
+}
+#green-background {
+  background-color: green;
+}
+ul {
+  color: white;
+  font-size: 20px;
+}
+footer {
+  color: black;
+  font-style: italic;
+  font-size: 12px;
+}
+
+/* about.html styling */
