@@ -20,10 +20,18 @@
       <h2 class="black-border white-background">Contactformulier</h2>
       <p>Vul onderstaand formulier in met je persoonsgegevens</p>
       <form name="contact" method="POST" data-netlify="true">
-        <input type="text" value="naam" />
-        <input type="email" name="" id="" value="email" />
-        <textarea rows="10" cols="30"> </textarea>
-        <input type="submit" />
+        <p>
+          <label>Naam: <input type="text" name="name" /></label>
+        </p>
+        <p>
+          <label>E-mailadres: <input type="email" name="email" /></label>
+        </p>
+        <p>
+          <label>Bericht: <textarea name="message"></textarea></label>
+        </p>
+        <p>
+          <button type="submit">Verzenden</button>
+        </p>
       </form>
     </main>
   </body>
