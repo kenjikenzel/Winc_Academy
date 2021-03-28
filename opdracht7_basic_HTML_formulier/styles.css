@@ -1,0 +1,58 @@
+/* index.html styling */
+.box-model-properties {
+  border: 5px solid red;
+  margin: 20px;
+  padding: 10px 15px 10px 15px;
+}
+
+.centre-title {
+  margin: 0 auto;
+  width: 500px;
+}
+
+.navigation-links li {
+  display: inline;
+  margin: 10px;
+}
+
+h1 {
+  color: black;
+}
+
+body {
+  background-color: lightgrey;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: auto;
+}
+
+ul {
+  color: black;
+  font-size: 20px;
+}
+footer {
+  color: black;
+  font-style: italic;
+  font-size: 12px;
+}
+
+@media (max-width: 700px) {
+  body {
+    background-color: lightcoral;
+  }
+}
+
+@media (min-width: 700px) {
+  body {
+    background-color: white;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    background-color: darkgray;
+    color: lightseagreen;
+    font-size: 85%;
+    line-height: 1.5em;
+  }
+}
