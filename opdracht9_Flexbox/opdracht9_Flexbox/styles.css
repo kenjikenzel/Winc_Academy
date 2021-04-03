@@ -1,0 +1,11 @@
+.blogpost {
+  width: 300px;
+  border: 1px solid black;
+}
+
+.blogpost-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
