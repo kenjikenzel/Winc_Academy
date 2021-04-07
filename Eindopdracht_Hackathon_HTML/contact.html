@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jiu-Jitsu examen</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <header>
+    <div class="navbar">
+      <div class="container flex">
+        <h1 class="logo">Jiu-Jitsu</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="examen.html">Examen</a></li>
+            <li><a href="contact.html">Documenten</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <body>
+    <main>
+      <section class="showcase">
+        <div class="container grid">
+          <div class="showcase-text">
+            <h1>Neem contact met ons op</h1>
+            <p>
+              Heb je vragen of wil je meer weten over Jiu-Jitsu? Neem contact
+              met ons op door onderstaand contactformulier in te vullen. Wij
+              nemen dan zo snel mogelijk contact met je op!
+            </p>
+          </div>
+          <div class="hero-image">
+            <img class="object-fit-cover" src="jiu-jitsu.jpg" alt="Jiu-Jitsu" />
+          </div>
+        </div>
+      </section>
+      <section class="container form">
+        <div class="showcase-form card">
+          <h2>Contact opnemen</h2>
+          <form>
+            <div class="form-element">
+              <input
+                type="text"
+                name="voornaam"
+                placeholder="Voornaam"
+                required
+              />
+            </div>
+            <div class="form-element">
+              <input
+                type="text"
+                name="achternaam"
+                placeholder="Achternaam"
+                required
+              />
+            </div>
+            <div class="form-element">
+              <input
+                type="email"
+                name="e-mailadres"
+                placeholder="E-mailadres"
+                required
+              />
+            </div>
+            <input type="submit" value="Verzenden" class="btn-form" />
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="container footer">
+      <p>Copyright K. Lam 2021</p>
+    </footer>
+  </body>
+</html>
