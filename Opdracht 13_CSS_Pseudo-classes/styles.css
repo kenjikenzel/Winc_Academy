@@ -1,0 +1,46 @@
+a:hover {
+  color: lightblue;
+  font-weight: bold;
+}
+
+a:active {
+  color: red;
+  font-style: italic;
+}
+
+a:visited {
+  color: yellow;
+}
+
+textarea:focus {
+  color: green;
+  font-size: 20px;
+}
+
+nav li {
+  display: inline;
+}
+
+nav ul {
+  padding-left: 0px;
+}
+
+header {
+  background-color: darkblue;
+}
+
+li.currentPage {
+  background-color: grey;
+}
+
+li.currentPage:hover {
+  background-color: red;
+}
+
+li:hover {
+  background-color: lightblue;
+}
+
+.search-bar:focus {
+  border-color: aqua;
+}
