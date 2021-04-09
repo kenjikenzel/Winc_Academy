@@ -15,29 +15,28 @@ h1 {
   width: 550px;
 }
 
-h1::before {
+h1:before,
+h1:after {
   background-color: #4a90e2;
-  content: string;
-  display: inline-block;
+  content: "";
+  display: block;
+  height: 30px;
+  position: absolute;
+  width: 25px;
 }
 
-selector voor het linker halve cirkeltje,
-selector voor het rechter halve cirkeltje {
-  // gezamelijke eigenschappen van de halve cirkels:
-  // - het is Winc blauw ... background:#4A90E2;
-  // - content is empty string
-  // - display... block? Inline-block?
-  // - aantal px hoog
-  // - aantal px breed
-  // - absolute positie
+h1:before {
+  left: 0;
+  top: 9px;
+  border-radius: 90px 0 0 90px;
+  -moz-border-radius: 90px 0 0 90px;
+  -webkit-border-radios: 90px 0 0 90px;
 }
 
-selector voor het linker halve cirkeltje {
-  // border radius, generator: <https://cssboxshadow.com/border-radius/>
-  // Positioneer je halve rondje met left en top
-}
-
-selector voor het rechter halve cirkeltje {
-  // border radius, generator: <https://cssboxshadow.com/border-radius/>
-  // Positioneer je halve rondje met left en top
+h1:after {
+  right: 0;
+  top: 9px;
+  border-radius: 0 90px 90px 0;
+  -moz-border-radius: 0 90px 90px 0;
+  -webkit-border-radios: 0 90px 90px 0;
 }
