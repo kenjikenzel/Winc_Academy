@@ -6,38 +6,31 @@ body {
   font-weight: 300;
   background-color: #ecffe9;
 }
-
 h1 {
   font-size: 1.7em;
   font-weight: 700;
   line-height: 1.5em;
   text-transform: uppercase;
 }
-
 h2 {
   text-transform: uppercase;
 }
-
 h4 {
   font-size: 0.8em;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-
 h6 {
   font-weight: 500;
 }
-
 a {
   text-decoration: none;
   color: #090b08;
 }
-
 ul {
   list-style: none;
 }
-
 .title {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -50,7 +43,7 @@ ul {
   padding-bottom: 1em;
 }
 
-.title__line {
+.title-line {
   width: 3em;
   height: 1px;
   background-color: #090b08;
@@ -67,11 +60,10 @@ ul {
 
 .btn:hover,
 .btn:focus {
-  -webkit-transform: translate(0px, -2px);
   transform: translate(0px, -2px);
   -webkit-box-shadow: 0px 10px 7px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 10px 7px -9px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 10px 7px -9px rgba(0, 0, 0, 0.75);
-  -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
 
@@ -79,13 +71,6 @@ form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-form input:first-child {
-  -webkit-box-flex: 1;
-  -ms-flex: 1 0 80%;
-  flex: 1 0 80%;
-  background-color: transparent;
 }
 
 form input:last-child {
@@ -114,6 +99,7 @@ input {
 }
 
 /* Pas alleen de onderstaande regels aan */
+
 /* Header */
 .header {
   display: -webkit-box;
@@ -137,16 +123,19 @@ input {
   height: 7.5em;
 }
 
-/* Pas alleen de CSS hieronder aan */
+.title {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-bottom: 1em;
+}
+
 /* Hero Section */
 .hero {
   padding: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   height: 100vh;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   background: #97d279;
 }
