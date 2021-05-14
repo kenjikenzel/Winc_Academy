@@ -1,6 +1,20 @@
-const paintWall = function (colours,) {
-  console.log("The " + wallside " wall has been painted " + colours);
+// No arguments
+const paintWall1 = function () {
+  console.log("The wall has been painted red");
 };
+paintWall1();
 
-paintWall("green");
-paintWall("blue");
+// Single argument
+const paintWall2 = function (color) {
+  console.log("The wall has been painted " + color)};
+
+paintWall2("green");
+paintWall2("blue");
+
+
+const paintWall3 = function (whichWall, color) {
+  console.log("The " + whichWall + " wall has been painted " + color);
+}
+
+paintWall3("north", "orange");
+paintWall3("south-east", "grey");
