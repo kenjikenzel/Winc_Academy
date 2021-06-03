@@ -1,0 +1,68 @@
+.nav-li {
+  background-color: #ffffff;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  background-color: #f1f1f1;
+}
+
+/* 
+#menuImage {
+  width: 40px;
+  height: 40px;
+  padding-left: 10px;
+}
+*/
+
+#home {
+  background-color: #f1f1f1;
+}
+
+#red {
+  background-color: red;
+}
+
+#orange {
+  background-color: orange;
+}
+
+#purple {
+  background-color: purple;
+}
+
+#green {
+  background-color: green;
+}
+
+.btn-toggle-nav {
+  width: 40px;
+  height: 40px;
+  margin-left: 5px;
+  background-image: url("/Opdracht32_Kleurentoggle/img/menu.png");
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: center;
+  cursor: pointer;
+}
+
+.nav-main {
+  width: 50px;
+}
+
+.nav-main ul {
+  list-style-position: inside;
+  list-style: none;
+  padding: 0px;
+  width: 200px;
+  visibility: hidden;
+}
+
+.nav-main li {
+  border: 1px solid black;
+  width: 150px;
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
